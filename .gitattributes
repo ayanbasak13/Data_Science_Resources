@@ -1,0 +1,3 @@
+*.pdf filter=lfs diff=lfs merge=lfs -text
+Books/How_to_Prepare_for_Quantitative_Aptitude_for_the_CAT_by_Arun_Sharma.pdf filter=lfs diff=lfs merge=lfs -text
+* filter=lfs diff=lfs merge=lfs -text
