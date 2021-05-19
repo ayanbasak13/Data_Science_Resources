@@ -1,0 +1,16 @@
+Give me an example of when you used data to make a decision that solved a problem.
+Tell me about the most complex problem you’ve ever worked on.
+Tell me about a time where you not only met a goal but considerably exceeded expectations.
+Tell me about a time when you were able to deliver an important project under a tight deadline.
+What are the variables you would consider when you are going to predict demand for a product?
+
+The probability of a product coming from location A is 0.8 and from location B is 0.6. What is the probability that customers will receive the product from location A or location B?
+If there is a project that you have never worked on before, how would you tell that the data you are using for this project is correct and you’ll get the correct results?
+What is the difference between OLTP and OLAP?
+How would you set up an online A/B testing scenario, and how would you determine whether or not to roll out a new program given the results of the experiment?
+What are the different ways of query optimization and performance tuning?
+Describe a join to a non-technical person
+You have a website and you need to report the traffic insights on this website to the Product Manager. Write an SQL query to find the top 10 persons who have visited the website in the last month.
+How is variance calculated in PCA?
+What are the assumptions in a random forest model?
+If we want to know whether people like a product, is there any statistical problems you can see when the analysis is based on their behavior on the website?

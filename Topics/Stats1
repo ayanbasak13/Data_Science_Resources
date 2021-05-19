@@ -1,0 +1,76 @@
+Statistical Feature Importance
+Ensemble Preds + statistical - New feature set using each ensemble model prediction vectors and statistical features -> train ML models
+Ensemble Preds (Single) + statistical - New feature set using a single prediction probability and statistical features -> train ML models
+Uncertainty
+Doc2Vec
+Clustering/Visualization
+Active Learning (update conditional probability)
+Data Drift/Uncertainty Estimation
+
+
+
+
+Data Science Related Interview Questions
+Design a random number generator.
+How to treat missing and null values in a dataset?
+Given N noodles in a bowl and randomly attaching ends. What is the expected number of loops you will have in the end?
+How to remove duplicates without distinct from a database table?
+When is value at risk inappropriate?
+What is the Wiener process?
+A = [-2 -1] [9 4]. What is A¹⁰⁰⁰?
+Write an algorithm for a tree traversal.
+Write a program for Levenshtein Distance calculation.
+Count the total number of trees in the states.
+
+
+
+Given a large string and a smaller string, write a program to find out if the smaller string can be generated from letters from the larger string.
+The probability that an item is at location A is 0.6, and 0.8 at location B. What is the probability that item would be found on the Amazon website?
+Implement the union and intersection of two arrays (in an efficient way). Note that elements of the two given array may be repeated but cannot be repeated in union and intersection array.
+You have two files in HDFS. One has a date range with two columns: Start date and End date. Another file has two columns with Date and number of visitors field. Write Spark code which gives the date range with the most number of visitors.
+Implement a circular queue using an array.
+What’s the difference between Lasso and Ridge Regression?
+When users are navigating through the Amazon website, they are performing many actions, clicking on buttons, doing searches, etc…. What is the best way to model if their next action would be a purchase?
+How does K-means work? What kind of distance metric would you choose? What if different features have different dynamic range?
+What are generative and discriminative algorithms? What are their strengths and weaknesses? Which type of algorithms are usually used and why?
+How to predict churn rate?
+
+What is the derivative of 1/x?
+Draw the curve log(x+10)
+How to design a customer satisfaction survey?
+Tossing a coin ten times resulted in 8 heads and 2 tails. How would you analyze whether a coin is fair? What is the p-value?
+You have 10 coins. You toss each coin 10 times (100 tosses in total) and observe results. Would you modify your approach to the the way you test the fairness of coins?
+Explain a probability distribution that is not normal and how to apply that?
+Why use feature selection? If two predictors are highly correlated, what is the effect on the coefficients in the logistic regression? What are the confidence intervals of the coefficients?
+K- mean and Gaussian mixture model: what is the difference between K-means and EM?
+When using Gaussian mixture model, how do you know it is applicable? (Normal distribution)
+If the labels are known in the clustering project, how to how to evaluate the performance of the model?
+You have a google app and you make a change. How do you test if a metric has increased or not?
+Describe the process of data analysis?
+Why not logistic regression, why GBM?
+Derive the equations for GMM.
+How would you measure how much users liked videos?
+Simulate a bivariate normal
+Derive variance of a distribution
+How many people apply to Google per year?
+How do you build estimators for medians?
+If each of the two coefficient estimates in a regression model is statistically significant, do you expect the test of both together is still significant?
+
+
+
+
+
+Q) Explain p-value to a non-technical person.
+
+A1: Basically, it is the probability that your study data is the result of random chance and not evidence of whatever you are trying to prove.
+
+For example, suppose I want to show, statistically, that people who read Quora have a higher IQ than average. I randomly sample 10 Quora readers and 10 non-Quora readers and give each an IQ test. I find that the average IQ among Quora readers is 115.8 and the average IQ among non-Quora readers is 101.3.
+
+Even though the Quora readers were smarter, on average, in my survey, I have not proved my point. The reason is, if I had chosen a different 10 people to study, I would have gotten different IQ values — maybe higher, maybe lower.
+
+P-value answers this question: assuming my premise is false and that there is no IQ difference between Quora readers and non-Quora readers, what is probability that I’d get values of 115.8 and 101.3 just by random chance?
+
+If this value is very low, we would conclude that the results were not random chance and that Quora readers really do have higher IQs on average.
+
+A2: p-value is the probability that the pattern of data in a sample is produced by random data. 
+

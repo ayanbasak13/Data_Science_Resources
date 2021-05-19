@@ -1,0 +1,52 @@
+How would you create a model to find bad sellers on marketplace?
+
+How would you improve notifications?
+
+How would you measure the success of a product?
+
+Instagram is launching a new feature...how would you tell if it’s doing well? 
+
+What is your favorite product and how would you improve it using data?
+
+
+Provided with a table of user IDs and the dates they visited the platform, find the top 100 users with the longest continuous streak of visiting the platform as of yesterday  
+
+Run a query to identify common friends between users
+
+How would you set up an experiment to evaluate a new product's performance?
+
+How would you measure success for separate parts of the product, such as Facebook Live vs. client advertisements?
+
+How could you use current and past data to anticipate features users will want in the future?
+
+How would you prepare to access a new product launch?
+
+Do people interact more or less on Facebook with their siblings?
+How would you measure interaction?
+How would you determine if people are siblings?
+How could Facebook use this information?
+
+How does activity vary depending on the season? What region/s are you looking at? How would you weight activity, is a comment worth more than a like?
+What factors would you use to distinguish users?
+How could Facebook use this information?
+
+How would you create a process to identify fake news postings on Facebook? Define a metric.
+Facebook sees that likes are up 10% year over year, why could this be?
+How can Facebook figure out when users falsify their attended schools?
+If 70% of Facebook users on iOS use Instagram, but only 35% of Facebook users on Android use Instagram, how would you investigate the discrepancy?
+
+What do you think the distribution of time spent per day on Facebook looks like?
+
+How would you evaluate the predictions of an Uber ETA model?
+What features would you use to predict the Uber ETA for ride requests?
+
+1. What is the difference between HAVING and WHERE?
+2. When are COUNT(*) and COUNT DISTINCT equal?
+3. Can left and inner join return the same results?
+4. What is the difference between RANK and DENSE RANK?
+5. Can UNION and UNION ALL return the same results?
+6. What are the best scenarios to use a self join?
+7. How can you use SQL to dedupe rows?
+8. In what scenarios is the LAG function useful?
+9. Use a window function to calculate a running total.
+10. Why would you use GROUP BY ROLLUP?

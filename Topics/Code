@@ -1,0 +1,79 @@
+Given a large string and a smaller string, write a program to find out if the smaller string can be generated from letters from the larger string.
+
+Given a list of integers, find the index at which the sum of the left half of the array is equal to the right half.
+
+How do you take millions of users with hundreds of transactions each, amongst thousands of products and group the users together in meaningful segments?
+
+Given a list of strings, write a function in Python to return all the strings that are anagrams.
+
+How would you design a classifier to send email notifications on photo posts?
+
+How would you build a recommendation engine for restaurants on Facebook?
+
+Write a function to generate X samples from a normal distribution and plot the histogram.
+
+Given a 4x4 Numpy matrix, reverse the matrix.
+Add two Numpy matrices together.
+
+https://leetcode.com/problems/monotonic-array/
+
+https://leetcode.com/problems/valid-palindrome/
+
+https://leetcode.com/problems/complex-number-multiplication/
+
+https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+
+https://leetcode.com/problems/time-based-key-value-store/
+
+https://leetcode.com/problems/merge-k-sorted-lists/
+
+Given a tree, write a function to return the sum of the max-sum path which goes through the root node.
+
+Given a binary tree, write a function to find if this tree is a search binary tree or not.
+Given an array, write a function that returns a samples from the array.
+
+
+Given two sets
+
+words ["cat", "bat", "mat" )
+ordering = [c,b,a,t]
+Return TRUE when the words in words[] are sorted in lexographic order as in ordering[]
+
+
+Given an infinite chessboard, find shortest distance for a knight to move from position A to position B
+
+Implement a circular queue using an array.
+
+(Coding) Given an Array of numbers & a target value, return indexes of two numbers such that their Absolute difference is equal to the target
+
+(Coding) Given two dates D1 & D2. count number of days, months?
+
+(Coding) Find 1st missing positive number (must do in O(1) memory & O(n) time)
+
+(Coding) Given an array a, return the indices i,j that minimize |a_i -a_j|
+
+Question1 :
+Write a function that take two strings as inputs and return true if they are anagrams of each other and false otherwise
+e.g.
+(hello, hlleo) --> true
+(hello, helo) --> false
+
+
+Question 2 :
+Write a function that take an array of strings "A" and an integer "n",
+that return the list of all strings of length "n" from the array "A" that can be constructed
+as the concatenation of two strings from the same array "A"
+e.g.
+A = [dog, tail, sky, or, hotdog, tailor, hot] and n=6
+output should be "hotdog" and "tailor"
+
+
+Question 3 :
+Given an array "arr" of numbers and a starting number "x",
+Find "x" such that the running sums of "x" and the elements of the array "arr" are never lower than 1.
+e.g.
+arr = [-2, 3, 1, -5].
+The running sums will be x-2, x-2+3, x-2+3+1 and x-2+3+1-5.
+So, the output should be 4.
+
+
