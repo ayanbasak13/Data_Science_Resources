@@ -6,3 +6,9 @@
 (Modeling) What is the interpretation of an ROC area under the curve as an integral?
 
 What is PCA? Does it apply to categorical data or continuous data?
+
+Q: What to do if you have 2 variables in a Linear Regression model with high multicollinearity ? How do you decide which one to remove from the model?
+Question
+A: If age and years of experience are highly correlated with each other, then definitely one of the variables will have to be removed in order to avoid the overestimation of the salary of the person.
+What happens is, since the two variables age and years of experience of a person are highly correlated, the study of the effect of age on the salary is overestimated as a part of it is also contributed by the ‘years of experience’ variable due to the multicollinearity factor existing between the two variables.
+To remove this multi-collinearity, we need to find the Variance Inflation Factor (VIF) for each variable. The variable with the highest VIF will have to be removed from the model as that variable would be the one contributing the most to the overestimated value of the dependent variable.
