@@ -1,0 +1,39 @@
+
+Q: 10 coins, 9 fair, 1 biased. P(Heads) of biased coin is 0.9. We pick up a random coin without replacement, and toss it 10 times. We get heads 9 times. What is the probability that the coin we chose is biased?
+
+
+A:
+
+def simulate_coin_toss(no_of_trials):
+	counter = 0
+	_sum = 0
+
+	while counter < no_of_trials:
+		Randomly sample an integer among [1,2, ..., 10]; i=1 represents biased coin, rest represent unbiased coin.
+
+		if i!=1:
+			n = 10
+			p = 0.5
+
+			n_heads = np.random.binomial(n, p)  // Gives no of heads for Binomial experiment with 'n' independent Bernoulli trials and P(Heads) = p
+			// Intuition: Sample 10 random variables, x_i, independently from a Bernoulli distribution with p=0.5, x_1, x_2, ..., x_10
+
+			if n_heads == 9:   // i.e. (x_1 + x_2 + ... + x_10) = 9
+				counter+=1
+
+		else:
+			n = 10
+			p = 0.9
+
+			n_heads = np.random.binomial(n, p)  // Gives no of heads for Binomial experiment with 'n' independent Bernoulli trials and P(Heads) = p
+			// Intuition: Sample 10 random variables, x_i, independently from a Bernoulli distribution with p=0.5, x_1, x_2, ..., x_10
+
+			if n_heads == 9:   // i.e. (x_1 + x_2 + ... + x_10) = 9
+				counter+=1
+				_sum+=1
+
+	return _sum/no_of_trials
+
+no_of_trials = 1000
+simulate_coin_toss(no_of_trials)
+
